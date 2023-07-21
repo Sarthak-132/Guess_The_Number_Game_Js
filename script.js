@@ -21,6 +21,5 @@ btn.addEventListener("click", function () {
     if (user_input == random_Number_Generator) {
         output.innerHTML = "Congratulations!&#128157; You guessed the right number in " + score + " chances!";
         output.style.color = "#00ffe7";
-
   }
 });
